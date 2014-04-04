@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="45dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginRight="11dp"
+    android:background="@drawable/newer_task_bg1"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ff000000"
+        android:text="xxxxx" />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/right_icon"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:text="已经完成"
+        android:textColor="#969696"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/right_icon"
+         android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:src="@drawable/right_icon"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

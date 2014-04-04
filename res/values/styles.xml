@@ -1,0 +1,102 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="buttom_bar_item_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <!-- <item name="android:gravity">center</item> -->
+        <item name="android:textSize">16sp</item>
+        <!-- <item name="android:background">@drawable/bottombar_itembg_selector</item> -->
+<!--         <item name="android:textColor">@color/bottombar_textcolor_selector</item> -->
+        <item name="android:button">@null</item>
+        <item name="android:drawableTop">@drawable/tab_selecter</item>
+        <item name="android:textColor">#ffa8a8a8</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="account_mgr_label_style" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:background">#cecece</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="account_mgr_value_style" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">#e5e5e5</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@drawable/dialog_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="account_info_table_title_textview_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#cee9f8</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="account_info_table_textview_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="account_info_table_raw_style">
+        <item name="android:background">#cccccc</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:paddingBottom">1px</item>
+        <item name="android:paddingLeft">1px</item>
+        <item name="android:paddingRight">1px</item>
+    </style>
+
+    <style name="account_info_table_raw_top_style" parent="@style/account_info_table_raw_style">
+        <item name="android:padding">1px</item>
+    </style>
+
+    <style name="v_line_style">
+        <item name="android:background">#cccccc</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">1px</item>
+    </style>
+
+    <style name="h_line_style">
+        <item name="android:background">#cccccc</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+</resources>

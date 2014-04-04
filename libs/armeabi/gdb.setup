@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/armeabi
+directory /opt/android-ndk/platforms/android-16/arch-arm/usr/include jni /opt/android-ndk/sources/cxx-stl/system /Users/cainli/Downloads/OpenSSL1.0.1cForAndroid-master/include

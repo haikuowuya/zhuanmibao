@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="160dp"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/content_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon"
+            android:layout_alignTop="@+id/icon"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/icon"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="充值成功"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content_area"
+        android:layout_above="@+id/ok"
+        android:gravity="center"
+        android:text="系统正在为你派发，请耐心等待.."
+        android:textColor="#6e6e6e"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_bg_green"
+        android:text="确定" />
+
+</RelativeLayout>

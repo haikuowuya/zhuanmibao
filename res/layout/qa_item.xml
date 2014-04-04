@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/arrow"
+        android:padding="15dp"
+        android:textColor="#555555"
+        android:background="@android:color/transparent"
+        android:text="xxxxxx"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/name"
+        android:paddingRight="12dp"
+        android:button="@drawable/arrow_down_up_selector" />
+
+    <View style="@style/h_line_style"
+      android:id="@+id/line"
+      android:layout_below="@+id/name"
+      android:visibility="gone"
+      />
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:background="#f3f3f3"
+        android:padding="15dp"
+        android:text="xxxxxx"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

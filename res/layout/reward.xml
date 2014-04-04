@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="273dp"
+    android:layout_height="376dp"
+    android:background="#e9e9e9"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="17dp"
+    android:paddingRight="17dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff0000"
+        android:text="delete" />
+
+    <ImageView
+        android:id="@+id/day1"
+        android:layout_width="47dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/del"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/day2"
+        android:layout_width="47dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/day1"
+        android:layout_toRightOf="@+id/day1"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/day3"
+        android:layout_width="47dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/day1"
+        android:layout_toRightOf="@+id/day2"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/day4"
+        android:layout_width="47dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/day1"
+        android:layout_toRightOf="@+id/day3"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/day8"
+        android:layout_width="47dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/day2"
+        android:layout_toLeftOf="@+id/day2"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

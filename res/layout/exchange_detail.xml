@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exchange_detail_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/account_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="账户米币：xxx"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/account_balance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="xxx"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/input_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_desc"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="33dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:background="@drawable/input_bg" >
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/account_ed"
+            android:layout_alignTop="@+id/account_ed"
+             android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:text="xxxxx"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/account_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/account"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:enabled="false"
+            android:gravity="center_vertical|right"
+            android:text="xxxxx"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_below="@+id/account_ed"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="13dp"
+            android:background="#cfcfcf" />
+
+        <TextView
+            android:id="@+id/mibi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mibi_ed"
+            android:layout_alignTop="@+id/mibi_ed"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/line"
+            android:gravity="center_vertical"
+            android:text="需要话费米币:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/mibi_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:layout_toRightOf="@+id/mibi"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:enabled="false"
+            android:gravity="center_vertical|right"
+            android:text="xxxxx"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_area"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="工作日当天到账，周末或者节假日顺延"
+        android:textColor="#c5c5c5"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg_green"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="确定"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/item_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_name"
+        android:layout_centerHorizontal="true"
+        android:text="xxx"
+        android:textColor="#989898"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/YoumiSdk_v4.06_2013-11-18.jar"/>
+	<classpathentry kind="lib" path="libs/360union.jar"/>
+	<classpathentry kind="lib" path="libs/acra-4.5.0.jar"/>
+	<classpathentry kind="lib" path="libs/activation.jar"/>
+	<classpathentry kind="lib" path="libs/additionnal.jar"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/AppOffer_2.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/Baidu_MobAds_SDK_Wall.jar"/>
+	<classpathentry kind="lib" path="libs/Baidu_MobAds_SDK.jar"/>
+	<classpathentry kind="lib" path="libs/CoolAD_SDK_adAll.jar"/>
+	<classpathentry kind="lib" path="libs/dianjin.jar"/>
+	<classpathentry kind="lib" path="libs/domob_android_offer_wall_sdk.jar"/>
+	<classpathentry kind="lib" path="libs/immobSDK.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-annotations-2.2.3.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-databind-2.2.3.jar"/>
+	<classpathentry kind="lib" path="libs/locSDK.jar"/>
+	<classpathentry kind="lib" path="libs/mail.jar"/>
+	<classpathentry kind="lib" path="libs/miidiad_android_wall_2_4_2.jar"/>
+	<classpathentry kind="lib" path="libs/offers-android-sdk.jar"/>
+	<classpathentry kind="lib" path="libs/pushservice-3.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/WiOffer.jar"/>
+	<classpathentry kind="lib" path="libs/yjfsdk_00.jar"/>
+	<classpathentry kind="lib" path="libs/zhidian_ad_sdk_4.1.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhuanmibao"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>   
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- 添加对屏幕多分辨率的支持 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+    
+    
+    <application
+        android:name="com.zhuanmibao.WApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+       	android:theme="@style/AppTheme"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.zhuanmibao.ui.login.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|locale|screenSize"
+            android:theme="@style/titlebarstyle"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.zhuanmibao.ui.SplashActivity"
+            android:configChanges="keyboardHidden|orientation|locale|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zhuanmibao.ui.MainActivity"
+            android:configChanges="keyboardHidden|orientation|locale|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/titlebarstyle"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        
+         <!-- acra -->
+        <activity
+            android:name="org.acra.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Dialog" />
+        
+         <!-- push应用定义消息receiver声明 -->
+        <receiver android:name="com.zhuanmibao.push.PushMessageReceiver">
+            <intent-filter>
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind,unbind,fetch,delete等反馈消息 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- push必须的receviver和service声明 -->
+        <receiver android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package" />
+            </intent-filter>                   
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1" />
+        <!-- push结束 -->
+        
+		<!-- 在百度开发者中心查询应用的API Key -->
+        <meta-data android:name="api_key" android:value="5E8liLAxgfQHGcyr2zKOU29i" />
+        
+        <!--begin=============================广告联盟======================================-->
+        <!-- 广告联盟 -->
+        <!-- 有米 -->
+        <service android:name="net.youmi.android.AdService" android:exported="false" >
+        </service>
+        <receiver
+            android:name="net.youmi.android.AdReceiver" android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <!-- /SDK 必须配置 -->
+        <!-- 积分广告必须配置 -->
+        <!-- 有米传媒 Android SDK 配置(可直接复制节点) -->
+        <activity
+            android:name="net.youmi.android.AdBrowser"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        
+        <receiver
+            android:name="net.youmi.android.offers.OffersReceiver"
+            android:exported="false" >
+        </receiver>
+        <meta-data android:name="YOUMI_CHANNEL" android:value="0" ></meta-data>
+        
+        <!-- 万普 -->
+        <activity android:name="cn.waps.extend.AppWall" android:configChanges="keyboardHidden|orientation" />
+		<!-- 
+        <meta-data android:name="APP_ID" android:value="09f277ca386ee99cb4c910e09f562112" />
+        <meta-data android:name="APP_PID" android:value="google" />
+        -->
+        <!-- 百度 -->
+        <meta-data android:name="BaiduMobAd_APP_ID" android:value="debug" /> 
+		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="debug" />
+		<activity android:name="com.baidu.mobads.appoffers.OffersActivity" 
+		    android:configChanges="keyboard|keyboardHidden|orientation" />
+		
+		 <!-- 360 Union Demo Add Begin -->
+		<activity android:name="com.qihoo360.union.ui.UnionAppListActivity"
+            android:screenOrientation="portrait" />
+        <service
+            android:name="com.qihoo360.union.service.UnionService"
+            android:exported="false"
+            android:label="UnionService" />
+        <!-- Qihoo360 AppKey -->
+        <meta-data
+            	android:name="360UNION_APPKEY"
+			    android:value="30a41ef49bc4b9c5c3466fb56ac5ee0f" /> 
+		<!-- Union Demo Add End -->
+		
+		<!-- 力美 -->
+		<activity
+            android:name="com.zhuanmibao.ui.home.downtask.LimeiAdwallActivity"
+            android:configChanges="orientation|keyboardHidden" />
+		<activity android:name="cn.immob.sdk.util.LMActionHandler" >
+        </activity>
+        <activity android:name="cn.immob.sdk.BrowserActivity" >
+        </activity>
+		<!-- 这个后台服务必须要填写，否则无法正常请求广告 -->
+        <service android:name="cn.immob.sdk.net.DownloadService" >
+        </service>
+		<!-- 这个是选填的，如果广告类型为积分墙的话，不填写这个广播则无法正常返还积分 -->
+        <receiver android:name="cn.immob.sdk.brocastreceiver.AppChangeBrocastreceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+		<!-- 易积分 -->    
+       <activity android:name="com.qiang.escore.scorewall.ShowWallActivity" 
+           android:configChanges="keyboardHidden|orientation"/>
+       <!-- 米迪 midi -->
+       <activity android:name="net.miidiwall.SDK.MyWallActivity" 
+           android:configChanges="keyboardHidden|orientation" />    
+       <!-- 点金 dianjin -->
+	   <activity android:name="com.bodong.dianjinweb.downloadmanager.DianJinDownloadManager"
+				 android:configChanges="orientation|keyboardHidden"
+				 android:launchMode="singleTask"
+				 android:theme="@android:style/Theme.Black.NoTitleBar" />
+	   <activity
+				 android:name="com.bodong.dianjinweb.web.DianjinWebAcitivity"
+				 android:configChanges="orientation|keyboardHidden"
+				 android:launchMode="singleTask"/>
+	   <service
+				android:theme="@android:style/Theme.Black.NoTitleBar" 
+				android:name="com.bodong.dianjinweb.service.DianJinService" />
+	   <!-- 多盟domob -->
+	    <activity android:name="cn.domob.download.OActivity"></activity>
+	    <!-- 酷告 -->
+        <activity android:name="cn.kugao.escore.scorewall.ShowWallActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="cn.kugao.escore.sdk.view.DetailActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="cn.kugao.escore.sdk.view.WebActivity"
+            android:configChanges="keyboardHidden|orientation" />
+	    <!-- 微云广告 wiyun -->
+       	<activity android:name="com.wiyun.offer.OfferList"
+			android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"/>
+		<!-- 
+			possible channel name: m.anzhi, m.anzuo 
+		-->
+		<meta-data android:name="com.wiyun.sdk.channel" android:value="m.anzuo">
+		    
+		</meta-data>
+		
+		<!-- adzhidian  -->
+		<!-- 添加网页，增加WebViewActivity -->
+        <activity android:name="com.adzhidian.ui.WebViewActivity"
+			android:configChanges="keyboardHidden|orientation" />
+		<!-- 添加网络监控 -->
+		<receiver android:label="NetWorkReceiver"
+		    android:name="com.adzhidian.manager.receiver.NetCheckReceiver"
+		    android:exported="false">
+			<intent-filter>
+				<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+				<action android:name="com.adzhidian.manager.receiver.NetCheckReceiver" />
+			</intent-filter>
+		</receiver>	  
+			<meta-data android:value="097EADB56743170C99AD801104DFB7BD " android:name="com.view.AdView.pid" />
+		<meta-data android:value="zhidian" android:name="com.view.AdView.channel" />
+		
+		<!-- 赢告 -->
+		 <!-- 注册显示积分墙Activity -->
+        <activity
+            android:name="com.winad.android.offers.OffersActivity"
+            android:screenOrientation="portrait" />
+        <!-- 注册积分说明Activity -->
+        <activity
+            android:name="com.winad.android.offers.FeedBackInfo"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.winad.android.offers.parameter.SyService" />
+
+        <receiver android:name="com.winad.android.offers.AutoOpenReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.offers.REDOWNLOAD" />
+            </intent-filter>
+        </receiver>
+        <!-- 应用ID -->
+        <meta-data
+            android:name="PUBLISHER_ID_OFFERS"
+            android:value="F96B9265365BFDC250B0734DB535ABA3" />
+
+        <!-- 测试模式（正式发布时value值为"false" ） -->
+        <meta-data
+            android:name="TESTMODE_OFFERS"
+            android:value="false" />
+
+        <!-- 配置代理ID——乐点代理ID为 1 -->
+        <meta-data
+            android:name="INTEGRAL_PROXY_ID"
+            android:value="1" />
+		<!--end=============================广告联盟======================================-->
+		
+		<!-- share sdk -->
+		 <activity
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <!-- 
+            	AuthorizeAdapter表示一个继承自cn.sharesdk.framework.authorize.AuthorizeAdapter
+            	的类，这个类可以监听到页面的生命周期，也可以获取授权页面的各种UI控件。 
+            	开发者可以通过继承AuthorizeAdapter，重写其方法，并获取各种UI来自定义这个页面的行为。
+            -->
+            <meta-data android:name="AuthorizeAdapter" android:value="cn.sharesdk.demo.MyAdapter" />
+            
+            <!-- 
+            	QZoneWebShareAdapter表示一个继承自cn.sharesdk.tencent.qzone.QZoneWebShareAdapter
+            	的类，这个类可以监听到页面的生命周期，也可以获QQ空间网页分享权页面的各种UI控件。 
+            	开发者可以通过继承QZoneWebShareAdapter，重写其方法，并获取各种UI来自定义这个页面的行为。
+            -->
+            <meta-data android:name="QZoneWebShareAdapter" android:value="cn.sharesdk.demo.MyQZoneWebShareAdapter" />
+            
+            <!--
+            	Dropbox的SSO功能需要在此处添加一个对ACTION_VIEW事件的过滤器，其中的scheme是
+            	“db-”前缀再开发者应用的加上appKey。如果此过滤器不设置，则不能完成SSO功能授权
+            -->
+            <intent-filter>
+                <data android:scheme="db-7janx53ilz11gbs" />
+        		<action android:name="android.intent.action.VIEW" />
+        		<category android:name="android.intent.category.BROWSABLE"/>
+        		<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="247dp"
+    android:layout_height="127dp"
+    android:background="@drawable/dialog_bg"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/content_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_area"
+        android:layout_alignParentTop="true"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/icon"
+            android:gravity="center"
+            android:text="xxxxxx" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="110dp"
+            android:layout_height="36dp"
+            android:background="@drawable/btn_bg_green"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="110dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/ok"
+            android:layout_alignTop="@+id/ok"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/ok"
+            android:background="@drawable/btn_bg_white"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

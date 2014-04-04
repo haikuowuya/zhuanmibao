@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/left_text"
+     	android:textColor="#ffffffff"
+        android:textSize="17sp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:drawableLeft="@drawable/left_arrow"
+       android:drawablePadding="5dp"
+       android:gravity="center"
+        android:text="返回" />
+
+    <TextView
+        android:id="@+id/center_text"
+       	android:textColor="#ffffffff"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="title" />
+
+    <TextView
+        android:id="@+id/right_text"
+        android:layout_marginRight="15dp"
+       	android:textColor="#ffffffff"
+        android:textSize="17sp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:text="next" />
+
+</RelativeLayout>

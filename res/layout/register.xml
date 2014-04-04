@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:id="@+id/head_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <ImageView
+            android:id="@+id/head_img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/nickname_label"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/head_img"
+            android:layout_toRightOf="@+id/nec"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/nickname_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/head_img"
+            android:layout_toRightOf="@+id/nickname_label"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_"
+            android:hint="您的昵称"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/email_label"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/nickname_label"
+            android:layout_marginTop="11dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/email_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/email_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/email_label"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_@"
+            android:hint="QQ邮箱"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/phone_label"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/email_label"
+            android:layout_marginTop="11dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/phone_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/phone_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/phone_label"
+            android:digits="1234567890"
+            android:hint="手机号码"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/passwd_label"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/phone_label"
+            android:layout_marginTop="11dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/passwd_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/passwd_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/passwd_label"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_@#*!"
+            android:hint="输入密码"
+            android:maxLength="6"
+            android:password="true"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/re_passwd_label"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/passwd_label"
+            android:layout_marginTop="11dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/re_passwd_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/re_passwd_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/re_passwd_label"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_@#*!"
+            android:hint="再次输入密码"
+            android:maxLength="6"
+            android:password="true"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/passwd_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/re_passwd_label"
+            android:gravity="center_vertical"
+            android:text="两次输入的密码不一致"
+            android:textColor="#cf4444"
+            android:textSize="11sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/commit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="7dp"
+       		android:paddingBottom="7dp"
+            android:layout_below="@+id/re_passwd_label"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_bg_blue"
+            android:gravity="center"
+            android:text="保存"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+</ScrollView>

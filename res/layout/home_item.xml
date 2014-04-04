@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:minHeight="88dip" >
+
+    <ImageView
+        android:id="@+id/active_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/active_img" >
+
+        <TextView
+            android:id="@+id/active_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/active_desc"
+            android:layout_alignRight="@+id/active_desc"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text="name"
+            android:textColor="#ff000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/active_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/active_name"
+            android:layout_marginLeft="19dp"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text="desc"
+            android:textColor="#989898"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/arrow" />
+
+</RelativeLayout>

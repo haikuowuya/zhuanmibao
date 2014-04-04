@@ -1,0 +1,889 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: VqHlaFMlv/4YZTVk9TtCh1A3ASM=
+
+Name: org/apache/harmony/awt/internal/nls/messages.properties
+SHA1-Digest: jMwW9jKD0vPqgROM1ZlDu/yYG0c=
+
+Name: res/layout/dialog3.xml
+SHA1-Digest: K2Ucdw/v1WZJ5DHaxgNufuSgtfE=
+
+Name: assets/btn_pause.png
+SHA1-Digest: B1JY7K2sL2FGKke17KVVFVlE2BU=
+
+Name: res/layout/game_item.xml
+SHA1-Digest: cTkwxhaUFINkaF5Gz6yrd6L/EfI=
+
+Name: res/layout/exchange_item2.xml
+SHA1-Digest: s4jx/78UDJbpEcCEchcYt3HnAcA=
+
+Name: res/layout/account_manager.xml
+SHA1-Digest: ZchAzeI6WEikH98+vQqlWFenv/s=
+
+Name: com/adzhidian/ui/adlogo.png
+SHA1-Digest: HmuDbQQHyF4IJSGiXGYamIe+MbU=
+
+Name: res/layout/share.xml
+SHA1-Digest: my2vZCPdSZMFTrMiwKAimWPWx84=
+
+Name: assets/dianjin_none_data.png
+SHA1-Digest: +GOCI0NWgIePTVflZ+RqsN3jPwY=
+
+Name: res/drawable/bottombar_item_money_selector.xml
+SHA1-Digest: 3rDdr8iI5cxiUYozNsahGythY84=
+
+Name: assets/download02.png
+SHA1-Digest: ap/0Qo8pDRUK4TYEhs24lm3TsPk=
+
+Name: res/drawable/on.xml
+SHA1-Digest: yobLP2tH4BbbHX/d5QM3JTJS/wE=
+
+Name: res/layout/game.xml
+SHA1-Digest: UFKuW0f+CI3dTQI94J/jn+3JZ4w=
+
+Name: cn/kugao/escore/sdk/ui/close.png
+SHA1-Digest: RA1cxGcakFnJwHRz89/Ua24g7j8=
+
+Name: javamail.smtp.address.map
+SHA1-Digest: la7OFR8+1sr/jbW4TcYPhFzpwqs=
+
+Name: cn/kugao/escore/sdk/ui/wall_list_down.png
+SHA1-Digest: DJyL73Q/+e9twnZWdfpH+VBCiUE=
+
+Name: assets/winads/offers/winad_exit.png
+SHA1-Digest: JygDIPnoyuYujGvAMVYGQI4noxQ=
+
+Name: res/drawable-xhdpi/share_qzone_icon.png
+SHA1-Digest: RoUsQzx9I0L096pnhk9dIqKB0wI=
+
+Name: com/adzhidian/ui/bg5.png
+SHA1-Digest: fH/TerlmUnf43luCpK0FyEMbqxc=
+
+Name: assets/line.png
+SHA1-Digest: eSbntdto12FGVinc/xMAAZjAFyk=
+
+Name: res/drawable-xhdpi/bottom_bar_money_icon.png
+SHA1-Digest: Kg7Zh+N3mPuFDen+wcqXoi8bfLI=
+
+Name: assets/progress_background.9.png
+SHA1-Digest: z/KmFaVI2rHasWRZZ+4JJYQGxc0=
+
+Name: res/layout/props_item.xml
+SHA1-Digest: Klo8ApmyqSYt1BesUKa6wy8bm0k=
+
+Name: res/drawable-xxhdpi/ic_launcher.png
+SHA1-Digest: KKqaLh/DVvFp+v1KoaDw7xETvrI=
+
+Name: assets/js/jquery.js
+SHA1-Digest: XAj6T8ZLku608pnfIuDtJG8QXEs=
+
+Name: res/drawable-xhdpi/phone_charge_icon.png
+SHA1-Digest: Gtb3C+Zrii373TRI3q1+HKuPcg4=
+
+Name: assets/winads/offers/winad_offer_coin.png
+SHA1-Digest: A/DrssgDVkDZQbcvmbJZM5ME6RY=
+
+Name: res/layout/login.xml
+SHA1-Digest: zjWSLrClM4wfckwbzdy6nmVd7ak=
+
+Name: com/adzhidian/utils/icon.png
+SHA1-Digest: q2poFwYrCVJXcn7IuhsRzOzbhU4=
+
+Name: assets/winads/offers/winad_default_full.png
+SHA1-Digest: Qbhj9BzXh//cEnjYO5sUJ2H4jJA=
+
+Name: assets/o_exit_on.png
+SHA1-Digest: 28K7zlid34onau8GvcKv2u/xOc0=
+
+Name: res/drawable/dialog_bg.xml
+SHA1-Digest: UEgKfiH04l51JtSH3rgACZWneFY=
+
+Name: com/adzhidian/utils/bg5.png
+SHA1-Digest: e1K0Mku8q9wE5Ek5pZ6oCCzVvj0=
+
+Name: assets/o_preview_off.png
+SHA1-Digest: WMP8WW42e3R0M5n+T0UOoxRGSi4=
+
+Name: res/drawable-xhdpi/login_icon.png
+SHA1-Digest: qBc4dW/dmqFEYsIOwkrug99ByWQ=
+
+Name: res/drawable-xhdpi/newer_task_bg4.9.png
+SHA1-Digest: Zzaq4W7nLa+Wppsw2CQQV6T+Y9I=
+
+Name: assets/arrow_right.png
+SHA1-Digest: PJbJj9Jim3VaZH+NVFVHjDkGDrY=
+
+Name: assets/winads/offers/winad_offers_activity.xml
+SHA1-Digest: C0Uv5ZjTB467PYfW39kBto9aqvc=
+
+Name: res/layout/account_page3.xml
+SHA1-Digest: 9Sm3E4Kt6B4nJTpHcTFRZwGwo+M=
+
+Name: res/drawable-xhdpi/task_icon_3.png
+SHA1-Digest: MWxBKU0amKUwT0g8tXRSi/Fps2g=
+
+Name: assets/btn_cancel.png
+SHA1-Digest: 9ES/jYGpd1ogiSAOJ0M74o8Yg4A=
+
+Name: res/layout/ad_down_task.xml
+SHA1-Digest: eTZJW19Egg7atzlyOKI0h/UPQgs=
+
+Name: assets/default_icon.png
+SHA1-Digest: 5Hn+tR4nE/AjfUyz2ie7s1SDI5c=
+
+Name: cn/kugao/escore/sdk/ui/wall_small_free_button.png
+SHA1-Digest: JtGGolIxn17HIYQTsZkPaM1/l+g=
+
+Name: assets/o_video_not_mute_not_selected.png
+SHA1-Digest: IOi1qRhZS8BZGMuR+0j+V5Coz9o=
+
+Name: res/layout/exchange_item1.xml
+SHA1-Digest: W+TSLoenpstiQk1/0zvSqLLUvKQ=
+
+Name: res/layout/newer_task_item.xml
+SHA1-Digest: GGAiL9/q7UBIrv2q5THzusK5Yr8=
+
+Name: assets/winads/offers/winad_refresh.png
+SHA1-Digest: RFhuf+yKsE/yWwC9sI2+S9jXqdo=
+
+Name: res/drawable-xhdpi/task_icon_5.png
+SHA1-Digest: ixafd0CsoF9PC7soTdMQ13WL0c0=
+
+Name: res/drawable-xhdpi/task_icon_2.png
+SHA1-Digest: d3oDzx4rxA6ldAvm/d/allTZw2U=
+
+Name: mailcap.default
+SHA1-Digest: OEOm9RCN2oyqc/cL3CCUJZmM8Yg=
+
+Name: assets/o_video_goto_selected.png
+SHA1-Digest: RYd3Ez5yZLcRZeYhoYEIHVal1Oo=
+
+Name: javamail.charset.map
+SHA1-Digest: yphd7jCdIMBZfsSI2ilVAOEzZI8=
+
+Name: assets/winads/offers/winad_offers_help.xml
+SHA1-Digest: xqr6x4gFvFMoaWq3SElAOz8cT0Q=
+
+Name: assets/css/offer_bg.png
+SHA1-Digest: 3THqVRU3D3cGjRQfaB3B/zHJOvo=
+
+Name: res/layout/account_page4.xml
+SHA1-Digest: +6FptJGzLRcOhAcivrevZKanPEU=
+
+Name: assets/default_banner.png
+SHA1-Digest: nkx3k8tgt6gLyliIgF0YwuAzqxQ=
+
+Name: res/drawable-xhdpi/level_icon.png
+SHA1-Digest: TYGGMGsIhL+VhrNIeWliUYLDtHg=
+
+Name: res/layout/account_head.xml
+SHA1-Digest: oCNLSTPmpZX9i4PLxP2nmA83B1U=
+
+Name: assets/o_refresh_on.png
+SHA1-Digest: Sxe6W/9yw9esqxEB15CxpFH6pPc=
+
+Name: res/layout/general_login.xml
+SHA1-Digest: yLZ0zmsFh/FqkMD1nYa6kcq81No=
+
+Name: res/layout/ad_down_task_detail.xml
+SHA1-Digest: WLbSV/tfgbDSvf1Zhgz+BcQU+6c=
+
+Name: assets/winads/offers/winad_offer_list_select.9.png
+SHA1-Digest: pngVvxFZZP1+UgltX2IuH5lagQ0=
+
+Name: res/drawable/off.xml
+SHA1-Digest: PIa+vXwXyVDUy9bUiujd5xtJLvU=
+
+Name: res/layout/dialog.xml
+SHA1-Digest: VPTGVFiNt0+7lTDASY9iq32yphc=
+
+Name: assets/reflectup.png
+SHA1-Digest: eNUE4VM8ujJj1cuKnS7ZbYO4KDo=
+
+Name: res/drawable/num_bg.xml
+SHA1-Digest: GneM/JPalwuvtImczkA4n3itJWU=
+
+Name: res/layout/feedback.xml
+SHA1-Digest: KbEdMX0P9f5DfNlWXJwCBkaDWOU=
+
+Name: res/drawable/loginguide_login_btn_bg.xml
+SHA1-Digest: 7nBta59uOqbXVuTa1KnZp95Dwm8=
+
+Name: assets/btn_installed.png
+SHA1-Digest: QuHCrfN9ZHcjQnn3TjvRB2WH/zU=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: HF38rGR0n8yOXT7hPMDdtVMPH0s=
+
+Name: com_zhuanmibao_ZMBJni.h
+SHA1-Digest: 1PzTW22z/yGQlIUp8j+c12kda4A=
+
+Name: res/layout/tobe_genius_item.xml
+SHA1-Digest: o/UQ2Z8AlaOdGUOas7MlTEvl4fI=
+
+Name: assets/winads/offers/choose_right_normal.9.png
+SHA1-Digest: hCxpMNBkkxGTPosTdVxEaa2HHXM=
+
+Name: res/drawable-xhdpi/bottom_bar_more_icon.png
+SHA1-Digest: jciwPsw3/beDSD/GfbyAzi8fmlE=
+
+Name: assets/o_video_replay_selected.png
+SHA1-Digest: FiUKQPj5HaPhD2fJfzZFsEmL0AU=
+
+Name: assets/o_next_on.png
+SHA1-Digest: gkuKpIMzWZYDFJvPWYVfktGjtsE=
+
+Name: res/layout/account_page1.xml
+SHA1-Digest: zD9MozBSJyNQK5ZZCiOPISRPt2w=
+
+Name: res/layout/reward.xml
+SHA1-Digest: B0E1mz/OZL1PXjpJ1kgeFtQJSKE=
+
+Name: assets/o_video_muted_not_selected.png
+SHA1-Digest: pugqH8F8OTcq9I5AOghB2XwTq2c=
+
+Name: assets/yback.png
+SHA1-Digest: H4RzdK8zOhug5Z7Inip6J3BGHhs=
+
+Name: res/layout/guide_login.xml
+SHA1-Digest: YdmK1p5ywVFI21efGyEp/HEU+jM=
+
+Name: assets/o_video_custom_selected.png
+SHA1-Digest: rFWZXDN5J2bjpwhPYcuPONwV0yc=
+
+Name: res/drawable-xhdpi/diamond_red_icon.png
+SHA1-Digest: 0XZW2sFzJ+pgSl/C+Z5//KqjjsY=
+
+Name: assets/o_video_download_selected.png
+SHA1-Digest: HrQXVECVMNyj9FolcraXT7FkI7Y=
+
+Name: res/drawable/wheel_val.xml
+SHA1-Digest: ywLMLhtHH2OO3mQTEexmG3ToA98=
+
+Name: assets/o_video_pic_progress_bg.png
+SHA1-Digest: ih3N20yqYmK1Kgt/AqAcdjYhMyU=
+
+Name: cn/kugao/escore/sdk/ui/detail_big_button.png
+SHA1-Digest: nfeK4E90u4jkoEhNQfeStmA9H60=
+
+Name: assets/btn_install.png
+SHA1-Digest: 70jWOMU/q0aytRLzeH1dPdRNwHo=
+
+Name: res/layout/complete_account_info.xml
+SHA1-Digest: oaRYwlZd4fG6jOY9dQD0ws/ctFs=
+
+Name: res/drawable-xhdpi/newer_task_bg1.9.png
+SHA1-Digest: Lt892F8ZmOZeg84HR2yYAktYqcY=
+
+Name: assets/winads/offers/winad_offers_icon.png
+SHA1-Digest: IZzszii16oJM/EBE5qln0DfIh4o=
+
+Name: assets/CHANGELOG.txt
+SHA1-Digest: uRDQYkWEqjquPiAGCHqlGJavEOc=
+
+Name: res/layout/ad_down_task_item.xml
+SHA1-Digest: heikfBQhexsi8tBuQyr0gjAdqJo=
+
+Name: res/layout/account_page2.xml
+SHA1-Digest: Si3UxcJhT1IMskq22BrlDOsyN7M=
+
+Name: com/sun/mail/dsn/mailcap
+SHA1-Digest: adoefGJAcxFZ9c1BCbtMgJDc4uU=
+
+Name: javamail.default.address.map
+SHA1-Digest: v0AMWogtP3iw2he5Ed7ptkfGPSI=
+
+Name: assets/o_preview_on.png
+SHA1-Digest: KYj8pyxiwQ9T4cZZ+P5zkqUw2Mw=
+
+Name: cn/kugao/escore/sdk/ui/icon_default.png
+SHA1-Digest: bS35jg04CojBUyHqM4B2/+qXFM4=
+
+Name: res/drawable/down_task_tips_bg.xml
+SHA1-Digest: qPjUDGiG+2DSocnLYtYQSFm/moA=
+
+Name: assets/winads/offers/winad_offers_headerview.xml
+SHA1-Digest: EYc/WPyFrFxYU84xyZ2KsePzAi8=
+
+Name: assets/shouqi.png
+SHA1-Digest: U8r3Q4qAtSt2Se+pLL7SN9yxLAk=
+
+Name: assets/index.html
+SHA1-Digest: OVBcJE5gnIokE/PTTPh7UYiZK1w=
+
+Name: lib/x86/libbdpush_V1_0.so
+SHA1-Digest: KhaOcdth5T0JUko+UTBkJ0+DvzQ=
+
+Name: res/drawable-xhdpi/bigwheel_icon.png
+SHA1-Digest: +LiJIzWI0554g8/rJfO2OiG25Og=
+
+Name: res/layout/tobe_genius.xml
+SHA1-Digest: XjSGL8RAhy2bKccucMM13I/uR4o=
+
+Name: assets/winads/offers/winad_offer_dialog_bg0.9.png
+SHA1-Digest: 9FqVIOKABAZt71Di0ViPQmYz3u4=
+
+Name: res/layout/buttom_bar.xml
+SHA1-Digest: 7VwLdayB7Of4Sz+1Yz3e+QYLxUs=
+
+Name: assets/o_next.png
+SHA1-Digest: fEFkxgm9QS/y5Yg4QwXkgi5oUJg=
+
+Name: cn/kugao/escore/sdk/ui/openbutton.png
+SHA1-Digest: KHWItfUmiZLlZ2KKKODkudlZsAY=
+
+Name: res/layout/register.xml
+SHA1-Digest: moGODF3rkt2O743sm4AIiwgScj8=
+
+Name: assets/sanjiao.png
+SHA1-Digest: fOuwGrpl0L7SFxnaY9kbA+mSITw=
+
+Name: assets/winads/offers/winad_offer_main_btn_pressed.9.png
+SHA1-Digest: VJSxLGWTNE+oEgmIQtdeAI2ClRY=
+
+Name: res/drawable-xhdpi/head_icon.png
+SHA1-Digest: B0bhXVpxJYhL9PAxFyUD1h6BtY8=
+
+Name: assets/winads/offers/choose_left_press.9.png
+SHA1-Digest: 9LJnwQko/dcO3jxuBeb7u+43p7Y=
+
+Name: assets/btn_finish.png
+SHA1-Digest: Qq7dzE25yHw7QXNLNqZCWReaPGs=
+
+Name: res/raw/shake_match.mp3
+SHA1-Digest: 7smA/0QUZDF+TmxqODJOIVeo2nk=
+
+Name: res/menu/main.xml
+SHA1-Digest: CatI+MhHWdEI0k90ir8lozPqtPA=
+
+Name: assets/winads/offers/winad_next_off.png
+SHA1-Digest: 4865bzEkhXkG1DOtNsMOB2eJtqM=
+
+Name: assets/winads/offers/winad_offer_dialog_bg.9.png
+SHA1-Digest: Km4ardfmnPEzgJX7tHZySPDxCpY=
+
+Name: res/drawable-xhdpi/share_checked.png
+SHA1-Digest: jtrx72l9//5JruIq6wr4D2J9Io4=
+
+Name: assets/winads/offers/winad_offer_head_bg.png
+SHA1-Digest: 9SICbIoA9gPGzvk7iH1jlrnpAJ0=
+
+Name: res/drawable-xhdpi/slotmach_icon.png
+SHA1-Digest: wmlMa94X49FH+HFVFN65xT96rG0=
+
+Name: res/drawable-xhdpi/task_newer_icon.png
+SHA1-Digest: Bt9bT1haApP19/4tlorISjeqMm8=
+
+Name: res/drawable/bottombar_item_exchange_selector.xml
+SHA1-Digest: ZzkW5jdkAqlTtIp1Gj8kKSNauQA=
+
+Name: javamail.pop3.provider
+SHA1-Digest: xx7+YzBZJEzUzyad35ichWNPTvY=
+
+Name: assets/css/gx.png
+SHA1-Digest: bX9FBZ28P51LNzWrv0IyP2PtaTg=
+
+Name: extra/__pasys_remote_banner.jar
+SHA1-Digest: ieiWnsDp4VHgap/GsSQ7Tm3bOTg=
+
+Name: assets/o_loading.png
+SHA1-Digest: 5zuYYHYmaPMvlErod7G1z/hPWaE=
+
+Name: assets/btn_finish_p.png
+SHA1-Digest: XqTf6aK6ueTMM+KWjb/wNYSel5Q=
+
+Name: res/drawable-xhdpi/diamond_yellow_icon.png
+SHA1-Digest: t0oiLHr3Rrukl8hC8REjYwD+cac=
+
+Name: res/drawable/layout_bg.xml
+SHA1-Digest: KWo4q2wOrNButOrwXGWv/iupZNU=
+
+Name: assets/o_video_full_not_selected.png
+SHA1-Digest: lZK0nUp7uOXwDkwiIxZslTYqZuI=
+
+Name: res/drawable-xhdpi/bottom_bar_game_icon.png
+SHA1-Digest: yw1Cie94Aj7nabrq3d8v7VM5cmg=
+
+Name: res/layout/props.xml
+SHA1-Digest: 8nZnb1LK6VHAb5ullM+TvhB8hUM=
+
+Name: assets/winads/offers/winad_offer_dialog_head_line.png
+SHA1-Digest: 5tAYL7t1eYFKAZoUTupqxgMrDtQ=
+
+Name: res/drawable-xhdpi/bottom_bar_more_icon_nor.png
+SHA1-Digest: 1qjZlwarqeyLl/gaj1kpthlc8f4=
+
+Name: javamail.default.providers
+SHA1-Digest: tBRMNiJQTMZ/CZ7f+5bYEhYt+TI=
+
+Name: assets/title_back.png
+SHA1-Digest: AVhF/QH7LdXtyhyKMD5wDhX4g+s=
+
+Name: res/layout/activity_task.xml
+SHA1-Digest: Ye8rllpERJHl+xZfjvcWWArwndA=
+
+Name: assets/o_video_download_not_selected.png
+SHA1-Digest: UirEWAUgSgE7uGT2bGdTB77vZQA=
+
+Name: assets/btn_edit.png
+SHA1-Digest: nz/YsRN3ezhjz8OzHwt7gVLAAo0=
+
+Name: assets/css/style.css
+SHA1-Digest: nyitO2MXJKguJ0YZLfg0AkP6X9w=
+
+Name: res/drawable/account_info_tab_bg.9.png
+SHA1-Digest: DVX2jAYL+P4djLXAMNWzd1y24LI=
+
+Name: res/drawable/bottombar_item_game_selector.xml
+SHA1-Digest: E+Sgfenk/BIwjY2bGXJXqYtUiXU=
+
+Name: res/drawable-xhdpi/share_channel_bg.9.png
+SHA1-Digest: Tuz+rwnnBMvcpBLgygPlU2nUH/E=
+
+Name: res/layout/dialog2.xml
+SHA1-Digest: CcVxspCzmmENHxPdLR0jkQTYGvU=
+
+Name: res/drawable-xhdpi/task_icon_4.png
+SHA1-Digest: h2waoDDJDUoD5Es4zVUeZbw2g0U=
+
+Name: lib/mips/libbdpush_V1_0.so
+SHA1-Digest: EQKbmTIiEganNzE7AbqulcRgZXE=
+
+Name: res/layout/splash.xml
+SHA1-Digest: VkVRqFDDpiXhOtLlMzB9/J6K2ak=
+
+Name: res/layout/account.xml
+SHA1-Digest: YfEOhOcU92O0hToKiHuIOwMoJIk=
+
+Name: res/layout/title_bar.xml
+SHA1-Digest: lvbMrekLBvUTweEi/hgKWJKEkiA=
+
+Name: res/drawable-xhdpi/task_download_icon.png
+SHA1-Digest: y28jInzFx7+8qV39WNe/8GoQEIo=
+
+Name: res/drawable/btn_bg_blue.xml
+SHA1-Digest: KT5af9BhWoKK+Ra23TMkVxoj/K8=
+
+Name: assets/o_out.png
+SHA1-Digest: 3mMiPfpHYVFWLP8Wr8HDByQlDgk=
+
+Name: assets/dianjin_cat_x.png
+SHA1-Digest: W6/jmf3kMh8dmTUDiFJ3TP6BVbs=
+
+Name: res/layout/home_item.xml
+SHA1-Digest: LFidffue7lgIs2N0YcpRlaUH3QA=
+
+Name: assets/o_video_muted_selected.png
+SHA1-Digest: Nspx+rj7Ilb4pVXm5T1RGy1joe4=
+
+Name: assets/js/index.js
+SHA1-Digest: wGnkm/RfMMYQRrN7/0EQFEbvKuM=
+
+Name: res/drawable/bottombar_itembg_selector.xml
+SHA1-Digest: QyEdGFDcf2Fzn0E5VmtX3v+eVHw=
+
+Name: res/layout/test.xml
+SHA1-Digest: TH8bxOwlHD2YXUvUoa0sCER25+E=
+
+Name: assets/plus.png
+SHA1-Digest: aG7avLgP3QQqRyx25o+t9Kwwu6w=
+
+Name: assets/line_jf.jpg
+SHA1-Digest: aiFBNkDkoM1ZHL9tpFnPnkUFWSo=
+
+Name: assets/o_video_not_full_selected.png
+SHA1-Digest: l1UmbbAUASL6j64u1XlQO4WxJaQ=
+
+Name: assets/btn_edit_p.png
+SHA1-Digest: ganNyttUT0Z7J11oNwsLNluMYKc=
+
+Name: res/drawable-xhdpi/qqvip_icon.png
+SHA1-Digest: yLLGxRqtJWE4+jjY/yE4dkZv72I=
+
+Name: assets/o_banner.png
+SHA1-Digest: cFLuYc1vEDKx9Gs3S5cQvjwl1F0=
+
+Name: assets/arrow_down.png
+SHA1-Digest: jbEOhRh2l4+3dHFQ5wQNuX7p6lQ=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: stS7pUucSY0GgAVoESyO3Y7SanU=
+
+Name: res/layout/shake.xml
+SHA1-Digest: D5v6sQ1KuwkrHZwk9ZzNUUkXvo8=
+
+Name: assets/winads/offers/winad_window_num_bg.png
+SHA1-Digest: cNpbGNLEYeuGNyVe5qUwrtM/BJE=
+
+Name: res/drawable/loginguide_quicklogin_btn_bg.xml
+SHA1-Digest: ajYGhOkrkvUTbxpf3ANyOyYjEvU=
+
+Name: assets/o_video_not_full_not_selected.png
+SHA1-Digest: vjJkFCJoQ6y4EUtOhQ3bROp9hNI=
+
+Name: cn/kugao/escore/sdk/ui/detail_content_background.png
+SHA1-Digest: cpnXSqnQVIog5sSQV7NCYOREp/o=
+
+Name: res/layout/home.xml
+SHA1-Digest: DajBAEW5D4A/ODVJhdZI44X7SO8=
+
+Name: res/drawable-xhdpi/share_wx_icon.png
+SHA1-Digest: SbvFursYUAjoJ93jQnBB7LDf9WI=
+
+Name: resources.arsc
+SHA1-Digest: x+MyVY+SAJN7vwGdoxLD6rFF/YQ=
+
+Name: assets/o_video_pic_progress_filling.png
+SHA1-Digest: LzXw9EV33Up3Y6VVvxx3WhgFkpg=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Pw3PtuVLLzYLYLxlF6sdR47Pka0=
+
+Name: assets/o_video_full_selected.png
+SHA1-Digest: qaYRmqlSevcZScNqN/Ggy7qAkaU=
+
+Name: res/drawable-xhdpi/newer_task_bg6.9.png
+SHA1-Digest: 00tFwTVpVxT7hAVwgGIC61zjxBw=
+
+Name: res/drawable-xhdpi/left_arrow.png
+SHA1-Digest: NRiJ9SUcUyJ3giCeuKQPbWu2avs=
+
+Name: res/drawable-xhdpi/arrow.png
+SHA1-Digest: m/3iN/NP3T63fgISPXp3o2yzvak=
+
+Name: res/drawable/wheel_bg.xml
+SHA1-Digest: gq+NnDuTc/x59k6puYzVRWo8SiI=
+
+Name: lib/armeabi/libbdpush_V1_0.so
+SHA1-Digest: NS/FiNjboxpE3z4m8BY7/KAiXd4=
+
+Name: assets/zhankai.png
+SHA1-Digest: K8yoI60NKf2TOeHHiq/mQoU9n5Q=
+
+Name: assets/winads/offers/choose_left_normal.9.png
+SHA1-Digest: /ek/mV4m2DgY0+FpP7gQJ5CLEv0=
+
+Name: assets/winads/offers/winad_loading.png
+SHA1-Digest: WUEQlaCjyUrpFq1QMglgF5NwMGk=
+
+Name: assets/version
+SHA1-Digest: Esm6bfvfi06pjaXI+uld7xo6G3c=
+
+Name: res/drawable-xhdpi/right_icon.png
+SHA1-Digest: Mba0th5KZM+/z88VnpqX7XOpKcI=
+
+Name: res/layout/activity_task_item.xml
+SHA1-Digest: yj8coAlhzuTmDg8kG7wBK6k7/XE=
+
+Name: assets/winads/offers/winad_offer_main_btn_normal.9.png
+SHA1-Digest: ZtaB8M6EmQmUs3stOasAHfPjsls=
+
+Name: assets/winads/offers/winad_preview.png
+SHA1-Digest: NrWfx6PJ2yWk51Zp8TT6rKhwvAE=
+
+Name: assets/o_video_goto_not_selected.png
+SHA1-Digest: T7D8F2Me8zgc/kBe07JeyqwLcP4=
+
+Name: assets/yclose.png
+SHA1-Digest: W4I3G6IlmpYsatMK01+En/fBtOM=
+
+Name: classes.dex
+SHA1-Digest: +3prCmS5E7ITlAZUX32jAvbo0/Q=
+
+Name: res/drawable/arrow_down_up_selector.xml
+SHA1-Digest: 3tNVUxxnU8BJYq4bvkb3Ts1G4+Q=
+
+Name: res/drawable/input_bg.xml
+SHA1-Digest: 7uaoBqUmpY2d4Icgdhs0lm51NqM=
+
+Name: assets/xiazai.png
+SHA1-Digest: HrJ70aXPNG9FY2b10SgxoJQQSC8=
+
+Name: res/layout/limei.xml
+SHA1-Digest: Ui0qbgA53cjXJTm9v5omsb2Vq9s=
+
+Name: res/layout/slot_machine_layout.xml
+SHA1-Digest: gKbwZF/+zJKcwFDVE7G4tJxmc2U=
+
+Name: assets/plaquewater.png
+SHA1-Digest: MHIpObaCCMhJkXP2b0bB7hau+LY=
+
+Name: res/drawable-xhdpi/diamond_green_icon.png
+SHA1-Digest: hCUM9VvQFZw+9+Wnpb9yV0FdbOk=
+
+Name: assets/downbutton.png
+SHA1-Digest: 4QJpUu5D6BWoNvppPBahjG/B67U=
+
+Name: cn/kugao/escore/sdk/ui/detail_back.png
+SHA1-Digest: p3eCeJDP8oeUSA43+krFJT45iPM=
+
+Name: assets/winads/offers/winad_next.png
+SHA1-Digest: +GnB5Ae2unyTd0WLYXEI0eWG7nY=
+
+Name: res/drawable/tab_selecter.xml
+SHA1-Digest: fQGmb6x3FvmJ0l11gaT0yFuDGIU=
+
+Name: res/drawable-xhdpi/diamond_purple_icon.png
+SHA1-Digest: bfH7v2lOCRiPfVdcfD/OdND3WvY=
+
+Name: assets/o_preview.png
+SHA1-Digest: /+v2hc3Z1it1ypzZC/alJUnUO44=
+
+Name: cn/kugao/escore/sdk/ui/grip_icon_defaut.png
+SHA1-Digest: /r2RI4rLm+CegKDO3l0cmLPFpkk=
+
+Name: dsn.mf
+SHA1-Digest: DIMfyAT/elPDToK2wVP94dYzeEg=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: cIga++hy5wqjHl9IHSfbg8tqCug=
+
+Name: res/drawable-xhdpi/bottom_bar_money_icon_nor.png
+SHA1-Digest: N5TNRM+gnPWpKeShiPXbcQTA/iQ=
+
+Name: assets/btn_close.png
+SHA1-Digest: Y67awkUAvEAkLHTASb9ZpzpNPRc=
+
+Name: assets/css/loading.gif
+SHA1-Digest: UMdhGsYrrhyXaE5BxqJSsgL1seA=
+
+Name: res/drawable-xhdpi/newer_task_bg2.9.png
+SHA1-Digest: sgbs4Tf6++3HJixefFG5sxIcru8=
+
+Name: assets/o_video_close_not_selected.png
+SHA1-Digest: 8SrdkaUPKUjxgtsDsTIoGO7hCus=
+
+Name: assets/o_exit.png
+SHA1-Digest: yfGnYZGNfg96WnlwMXkFYiVfDx8=
+
+Name: assets/mini_default_icon.png
+SHA1-Digest: jxSJINnHxUVe7y95hWJ6Oi2Dfv4=
+
+Name: assets/o_border_black.png
+SHA1-Digest: RvUHm43pawXaf/E+xDfq1GFhMVM=
+
+Name: javamail.imap.provider
+SHA1-Digest: yd9kVPaarUBEmFyZYPyun4oIrlY=
+
+Name: res/drawable-xhdpi/newer_task_bg5.9.png
+SHA1-Digest: NU2FYwQkPqKRq5InSXJMUWCqbHs=
+
+Name: assets/loading.png
+SHA1-Digest: NhKquLiNom5nk23Y4tzwAbKZ/wY=
+
+Name: res/layout/exchange.xml
+SHA1-Digest: yqoRLE1g9jygk0c7a1S4bzyevi0=
+
+Name: res/layout/qa.xml
+SHA1-Digest: GAbVr+zILZ7xNDEaa7ywuNLBB/Q=
+
+Name: res/drawable-xhdpi/newer_task_bg3.9.png
+SHA1-Digest: /pBx+JjXhJUz710SBdJItwOEsB0=
+
+Name: assets/winads/offers/winad_offer_list_divider.png
+SHA1-Digest: ZmyHEbBa7jNVhrGAyWmoT46ns70=
+
+Name: res/drawable-xhdpi/gold_icon.png
+SHA1-Digest: jPRzXVReJK6PzBMe2zemYIyuCGY=
+
+Name: assets/winads/offers/winad_window_background.9.png
+SHA1-Digest: HrrUDfIbZSfBTP7MyXd2bj0wrN4=
+
+Name: res/layout/exchange_detail.xml
+SHA1-Digest: gNkE8oW+5r53Kl52ZXbPFiDMoJs=
+
+Name: res/drawable/account_info_tab_selector.xml
+SHA1-Digest: XFq96UuvViLkGjN+dLkb07f1wAQ=
+
+Name: assets/btn_continue.png
+SHA1-Digest: ajYDJISEk0ZcVSgCrnBRMYEU8WM=
+
+Name: lib/armeabi/libcrypto.so
+SHA1-Digest: QFtdNC5jighPe0CUFCGLuC5FnxU=
+
+Name: res/drawable-xhdpi/arrow_up.png
+SHA1-Digest: PP+Ld0Y5d3xJTEc/rk1nqHAkDgE=
+
+Name: res/drawable-xhdpi/task_active_icon.png
+SHA1-Digest: 8hXxNTXrnzhJU9XeId20eRBDviM=
+
+Name: cn/kugao/escore/sdk/ui/downbutton.png
+SHA1-Digest: BSa59yREgY4j6Vg1BcbedeWclCY=
+
+Name: res/layout/more.xml
+SHA1-Digest: Oj8sOTKLvU/C7MCAKi3pc367oaQ=
+
+Name: res/drawable-xhdpi/bottom_bar_game_icon_nor.png
+SHA1-Digest: IRx+9OaAmab77dbvJkTmxtR9OKA=
+
+Name: assets/o_border_white.png
+SHA1-Digest: v3Abskt1hMC+NSyUfMeM6fbgSBM=
+
+Name: res/drawable-xhdpi/task_icon_1.png
+SHA1-Digest: IO7dIsp2O4GtLSP6yhSkn2PcP9Q=
+
+Name: assets/winads/offers/choose_right_press.9.png
+SHA1-Digest: 3e1/ZH633kn2lMxFy2N+AjqxTRQ=
+
+Name: res/drawable/bottombar_item_more_selector.xml
+SHA1-Digest: UhKImDBvjc6LlBXGWT6cxkopqXw=
+
+Name: res/layout/main.xml
+SHA1-Digest: MfXlA7Wx90VM8V2BxehOJb9dfAI=
+
+Name: assets/btn_download.png
+SHA1-Digest: 6zIfgg0s0NRj8nNSgZcDqmuUOaE=
+
+Name: assets/winads/offers/winad_offer_list_normal.9.png
+SHA1-Digest: kuYEJD6GHisfx1Hv+3PY9i22aBM=
+
+Name: assets/anquanrenzheng.png
+SHA1-Digest: 3Ssd2WSC3eInS/jlu8tV4QLvujQ=
+
+Name: assets/css/video.png
+SHA1-Digest: L2okn0AU4Z2Tlx9gIlCDDpR/lP4=
+
+Name: assets/o_refresh.png
+SHA1-Digest: HV5mWcE9b7zVCvI+YcbaL392hUo=
+
+Name: assets/o_next_off.png
+SHA1-Digest: ZG5TxIATyCsszMxfUmRHMAH5QZs=
+
+Name: res/drawable/btn_bg_white.xml
+SHA1-Digest: LWlUcNkCnsxNIYmObZ5CbJree7E=
+
+Name: res/layout/about.xml
+SHA1-Digest: fEOJIdBLNfdny3zjfRZAT3NH0Fs=
+
+Name: res/raw/shake_sound_male.mp3
+SHA1-Digest: rXaOklC6oIvVGC363a1wYn+SBJw=
+
+Name: assets/winads/offers/winad_banner.png
+SHA1-Digest: 05nqHjykc4FQKiSdl3E3uMbvhDQ=
+
+Name: assets/winads/offers/winad_out.png
+SHA1-Digest: pJWZhQ9O/2ss/kR1LmaeDuWCTx8=
+
+Name: res/drawable/btn_bg_green.xml
+SHA1-Digest: 5MBHNsi04suVKgMpXl8XmXHNKe4=
+
+Name: res/drawable-xhdpi/bottom_bar_exchange_icon_nor.png
+SHA1-Digest: yNdDLbD7+6Wl21LvGVx4CV/BseI=
+
+Name: javamail.smtp.provider
+SHA1-Digest: ZX797rIEua0P4b3taBnIScfckNI=
+
+Name: res/drawable-xhdpi/shake_icon.png
+SHA1-Digest: 0203+y0ALDQlxiFo1hrlu7Gn01I=
+
+Name: assets/plaquebg.png
+SHA1-Digest: Zka6HXWvJXuutIb7c2Z/lMB+g+0=
+
+Name: assets/btn_update.png
+SHA1-Digest: bKPe+7+VMbU0thbccZY7YkpG2IY=
+
+Name: res/drawable/loginguide_register_btn_bg.xml
+SHA1-Digest: qvensXI8TutaM7Q6s9PVAo/NZbs=
+
+Name: assets/o_close.png
+SHA1-Digest: eDBYJpyUKnl287IAoGZoA72ML/M=
+
+Name: assets/o_video_not_mute_selected.png
+SHA1-Digest: WjTF5KuDTjlp8kJ4p9uBShPKeVk=
+
+Name: assets/download01.png
+SHA1-Digest: wP8/x2o+H/6iSmHKc04Yl1//X0o=
+
+Name: cn/kugao/escore/sdk/ui/banner_default_320x134.jpg
+SHA1-Digest: 4Rdbc9iLunfsamUCm02UqzKRMzw=
+
+Name: assets/openbutton.png
+SHA1-Digest: w73bqwHxDYcJ55k0oC4ytg6BzdQ=
+
+Name: res/layout/qa_item.xml
+SHA1-Digest: d7FgvCx8eiIzeua5cm0ZOUu3oSo=
+
+Name: assets/o_out_on.png
+SHA1-Digest: tTxWgWO9rknDh8L36yIgUGXKS5Q=
+
+Name: res/drawable-xhdpi/bottom_bar_exchange_icon.png
+SHA1-Digest: 8vl+gtJ+vZXE4OLu8Sd07HMU28A=
+
+Name: res/layout/share_item.xml
+SHA1-Digest: 1b/BshR9ZL+pL6UqgKTDqG74snQ=
+
+Name: assets/frontia_plugin/plugin-deploy.jar
+SHA1-Digest: PT+8b9Ebjby6wcSuTO2gBCsTPkQ=
+
+Name: assets/o_video_logo.png
+SHA1-Digest: NnU2hYVI04NOuzB9yZx2Lr6U480=
+
+Name: assets/winads/offers/winad_offers_activity_list_item.xml
+SHA1-Digest: MqjldgTflJIIhtkEqc0gft5yPK4=
+
+Name: assets/o_video_replay_not_selected.png
+SHA1-Digest: ugoUX40Z+BVI/0AirVQHuFjijfs=
+
+Name: assets/winads/offers/winad_offer_feedback_bg.9.png
+SHA1-Digest: xckFbNK436bz9qGDmROOzlCum/w=
+
+Name: lib/armeabi/gdbserver
+SHA1-Digest: 03GlrkP0zDyKQ2ydCziQSWd6y8E=
+
+Name: assets/winads/offers/winad_preview_off.png
+SHA1-Digest: R+PiPxVmlwlRuBxdzYpDNdd08vA=
+
+Name: res/layout/newer_task.xml
+SHA1-Digest: +XWDbl6SZQvOV6battbOnc3wx5U=
+
+Name: assets/o_video_pic_progress_head.png
+SHA1-Digest: ne+VBkknt6FAnuJcf7GQdjI6DEY=
+
+Name: assets/frontia_plugin/plugin-deploy.key
+SHA1-Digest: KkB//kkeUL6WrtNvIaQGf6W+pKY=
+
+Name: mailcap
+SHA1-Digest: ydglDriTEt+HQdxQxFQv3cdkxGQ=
+
+Name: assets/js/iscroll-lite.js
+SHA1-Digest: x890oDyVv7LgUZBCC6SET/ZzLdo=
+
+Name: mimetypes.default
+SHA1-Digest: LtnD5FLKTeAWyyv18Kx6HHZlDLQ=
+
+Name: assets/winads/offers/winad_offer_main_btn_enable.9.png
+SHA1-Digest: Z77OQHlEhzQfxufhJcugAuCNw5Y=
+
+Name: assets/o_video_custom_not_selected.png
+SHA1-Digest: Rwil7J6IjaiDGQTNSc6yYbT0gyA=
+
+Name: assets/book.png
+SHA1-Digest: /RiqEZj3CNI5Ej1Asz3ocL40J0w=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: VY7kOF8E3rn8EUTvQC/DcBEN6kQ=
+
+Name: assets/winads/offers/winad_offers_dialog_download.xml
+SHA1-Digest: Lxa7yownIsqKr5kPBDt+sUdsLuA=
+
+Name: assets/line_h.jpg
+SHA1-Digest: xU6noEXsQI90FVp69mtSnb//ErE=
+
+Name: res/drawable-xhdpi/mi_icon.png
+SHA1-Digest: vVsUZBXqLcc40AY5AqiJnwh1NGk=
+
+Name: lib/armeabi/libzmb.so
+SHA1-Digest: Us5Sgt1EIdDi8zSvpWHA1pQxu4g=
+
+Name: assets/winads/offers/winad_offers_listview_loading.xml
+SHA1-Digest: yiZJglA9cpZG1ze0Y3cGhSOBt0Y=
+
+Name: res/drawable-xhdpi/arrow_down.png
+SHA1-Digest: 7n385bXDFPecsWxcNJNYKTRgA9I=
+
+Name: assets/winads/offers/winad_window_btn_close.png
+SHA1-Digest: FhXPrZZFPM2etzm0DKx7Q+Sua3k=
+
+Name: res/drawable-xhdpi/money_icon.png
+SHA1-Digest: 0R8TIyUc5mqZwzUzY7tt74Xxen8=
+

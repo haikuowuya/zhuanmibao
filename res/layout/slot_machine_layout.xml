@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/layout_bg"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <com.zhuanmibao.ui.game.MarqueeTextView
+        android:id="@+id/scroll_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      	android:singleLine="true"  
+	 	android:ellipsize="marquee" 
+        android:marqueeRepeatLimit="marquee_forever" 
+        android:focusable="true" 
+        android:focusableInTouchMode="true" 
+        android:layout_alignParentTop="true" 
+        android:scrollHorizontally="true"
+        android:text="xxxxxx,     xxxxxxxx       ,,xxxxxxxxxffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        />
+
+    <TextView
+        android:id="@+id/account_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll_banner"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:text="账户积分" />
+
+    <LinearLayout 
+        android:id="@+id/slot_view"
+        android:layout_width="285dp"
+        android:layout_height="224dp"
+        android:layout_below="@+id/account_balance"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:background="#ff0f0f"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp" >
+
+        <com.zhuanmibao.widget.wheel.WheelView
+            android:id="@+id/slot_1"
+            android:layout_width="67dp"
+            android:layout_marginTop="103dp"
+            android:layout_height="100dp" />
+
+       <com.zhuanmibao.widget.wheel.WheelView
+            android:id="@+id/slot_2"
+            android:layout_width="67dp"
+            android:layout_marginTop="103dp"
+            android:layout_height="100dp" />
+
+        <com.zhuanmibao.widget.wheel.WheelView
+            android:id="@+id/slot_3"
+            android:layout_width="67dp"
+            android:layout_marginTop="103dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_mix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slot_view"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:text="   Try!  "
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/pwd_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_mix"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:textColor="#F00"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/game_expl"
+        android:layout_below="@+id/pwd_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="说明：\n 1:    \n 2:    "
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+</RelativeLayout>

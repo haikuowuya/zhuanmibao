@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3" >
+
+    <RadioGroup
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="1px"
+        android:paddingTop="1px" >
+
+        <com.zhuanmibao.ui.common.SelectedButton
+            android:id="@+id/tabButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1px"
+            android:layout_marginRight="1px"
+            android:layout_weight="1"
+            android:background="@drawable/account_info_tab_selector"
+            android:gravity="center"
+            android:tag="0"
+            android:text="我的资料"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <com.zhuanmibao.ui.common.SelectedButton
+            android:id="@+id/tabButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="1px"
+            android:layout_weight="1"
+            android:background="@drawable/account_info_tab_selector"
+            android:checked="true"
+            android:gravity="center"
+            android:tag="1"
+            android:text="任务记录"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <com.zhuanmibao.ui.common.SelectedButton
+            android:id="@+id/tabButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="1px"
+            android:layout_weight="1"
+            android:background="@drawable/account_info_tab_selector"
+            android:gravity="center"
+            android:tag="2"
+            android:text="兑换记录"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <com.zhuanmibao.ui.common.SelectedButton
+            android:id="@+id/tabButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="1px"
+            android:layout_weight="1"
+            android:background="@drawable/account_info_tab_selector"
+            android:gravity="center"
+            android:tag="3"
+            android:text="邀请记录"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/tab_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab" />
+
+</RelativeLayout>

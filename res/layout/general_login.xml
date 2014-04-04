@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="赚米宝"
+        android:layout_marginTop="75dp"
+        android:textColor="#31a4e5"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp" />
+
+      <EditText
+            android:id="@+id/loginName_et"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="39dp"
+            android:layout_marginRight="39dp"
+            android:gravity="center"
+            android:hint="邮箱/手机号" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginName_et"
+            android:layout_alignLeft="@+id/loginName_et"
+            android:layout_alignRight="@+id/loginName_et"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="密码"
+            android:inputType="textPassword" />
+
+      <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_et"
+    	android:layout_alignLeft="@+id/loginName_et"
+        android:layout_alignRight="@+id/loginName_et"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_bg_blue"
+        android:textSize="20sp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:text="登陆" />
+        
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ok"
+        android:layout_below="@+id/ok"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff000000"
+        android:text="注册用户" />
+
+    <TextView
+        android:id="@+id/forget_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/register"
+        android:layout_alignRight="@+id/password_et"
+        android:layout_alignTop="@+id/register"
+        android:textColor="#ff000000"
+        android:text="忘记密码" />
+
+    
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="bottom_bar_pressed" >#d0d0d0</color>
+    <color name="bottom_bar_normal" >#ffffff</color>
+    <drawable name="account_info_tab_bg_nor">#ffffff</drawable>
+</resources>

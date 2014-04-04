@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/account_head" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1"
+        android:layout_centerHorizontal="true" >
+
+        <TableRow style="@style/account_info_table_raw_top_style" >
+
+            <TextView
+                style="@style/account_info_table_title_textview_style"
+                android:text="任务" />
+
+            <TextView
+                style="@style/account_info_table_title_textview_style"
+                android:layout_marginLeft="1px"
+                android:layout_marginRight="1px"
+                android:text="已赚米币" />
+
+            <TextView
+                style="@style/account_info_table_title_textview_style"
+                android:text="完成时间" />
+        </TableRow>
+
+        <TableRow style="@style/account_info_table_raw_style" >
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="每日签到" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:layout_marginLeft="1px"
+                android:layout_marginRight="1px"
+                android:text="1300000000W" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="14/3/4 12:30" />
+        </TableRow>
+
+        <TableRow style="@style/account_info_table_raw_style" >
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="老虎机" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:layout_marginLeft="1px"
+                android:layout_marginRight="1px"
+                android:text="1300000000W" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="14/3/4 12:30" />
+        </TableRow>
+
+        <TableRow style="@style/account_info_table_raw_style" >
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="大转盘" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:layout_marginLeft="1px"
+                android:layout_marginRight="1px"
+                android:text="1300000000W" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="14/3/4 12:30" />
+        </TableRow>
+
+        <TableRow style="@style/account_info_table_raw_style" >
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="下载LOL" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:layout_marginLeft="1px"
+                android:layout_marginRight="1px"
+                android:text="1300000000W" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="14/3/4 12:30" />
+        </TableRow>
+
+        <TableRow style="@style/account_info_table_raw_style" >
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="邀请好友" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:layout_marginLeft="1px"
+                android:layout_marginRight="1px"
+                android:text="1300000000W" />
+
+            <TextView
+                style="@style/account_info_table_textview_style"
+                android:text="14/3/4 12:30" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

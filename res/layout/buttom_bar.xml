@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rg_tab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        style="@style/buttom_bar_item_style"
+        android:id="@+id/money"
+        android:checked="true"
+         android:gravity="center"
+        android:drawableTop="@drawable/bottombar_item_money_selector"
+        android:text="赚钱" />
+
+    <RadioButton
+        style="@style/buttom_bar_item_style"
+        android:id="@+id/exchage"
+         android:gravity="center"
+        android:drawableTop="@drawable/bottombar_item_exchange_selector"
+        android:text="兑换" />
+
+    <RadioButton
+        style="@style/buttom_bar_item_style"
+        android:id="@+id/luck"
+         android:gravity="center"
+        android:drawableTop="@drawable/bottombar_item_game_selector"
+        android:text="碰运气" />
+
+    <RadioButton
+        style="@style/buttom_bar_item_style"
+        android:id="@+id/more"
+        android:gravity="center"
+        android:drawableTop="@drawable/bottombar_item_more_selector"
+        android:text="更多" />
+
+</RadioGroup>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/account_head" />
+
+    <RelativeLayout
+        android:id="@+id/page_content_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head_area"
+        android:background="#ffffff" >
+
+        <View
+            android:id="@+id/line0"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentTop="true"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/level_label"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_below="@+id/line0"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:text="当前等级:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/level_value"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/line0"
+            android:layout_marginRight="15dp"
+            android:gravity="left|center_vertical"
+            android:text="Lv1"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/level_label"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/Earned_label"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_below="@+id/line1"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:text="已赚米币:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Earned_value"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/line1"
+            android:layout_marginRight="15dp"
+            android:gravity="left|center_vertical"
+            android:text="10000000w"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/Earned_label"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/exchanged_label"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_below="@+id/line2"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:text="已兑米币:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/exchanged_value"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/line2"
+            android:layout_marginRight="15dp"
+            android:gravity="left|center_vertical"
+            android:text="8700w"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/exchanged_label"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/available_rl"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_below="@+id/line3" >
+
+            <TextView
+                android:id="@+id/available_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:gravity="left|center_vertical"
+                android:text="可兑米币:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/available_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:gravity="left|center_vertical"
+                android:text="8700w"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/available_rl"
+            android:background="#cccccc" />
+    </RelativeLayout>
+
+</RelativeLayout>

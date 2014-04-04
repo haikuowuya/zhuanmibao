@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:id="@+id/head_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <ImageView
+            android:id="@+id/head_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/nec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/nickname_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/nickname_label"
+            android:layout_below="@+id/head_img"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="*" />
+
+        <ImageView
+            android:id="@+id/nickname_label"
+            android:layout_width="43dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/head_img"
+            android:layout_toRightOf="@+id/nec"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/nickname_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/head_img"
+            android:layout_toRightOf="@+id/nickname_label"
+            android:text="冷艳" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/email_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/email_label"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="*" />
+
+        <ImageView
+            android:id="@+id/email_label"
+            android:layout_width="43dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/nickname_label"
+            android:layout_marginTop="10dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/email_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/email_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/email_label"
+            android:text="冷艳" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/email_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/email_label"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="*" />
+
+        <ImageView
+            android:id="@+id/email_label"
+            android:layout_width="43dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/nickname_label"
+            android:layout_marginTop="10dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/email_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/email_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/email_label"
+            android:text="165326859@qq.com" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/passwd_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/passwd_label"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="*" />
+
+        <ImageView
+            android:id="@+id/passwd_label"
+            android:layout_width="43dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/email_label"
+            android:layout_marginTop="10dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/passwd_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/passwd_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/passwd_label"
+            android:hint="请输入密码"
+            android:password="true" />
+
+        <TextView
+            android:id="@+id/passwd_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/passwd_label"
+            android:gravity="center_vertical"
+            android:text="密码由大小写，英文数字组成的12位"
+            android:textSize="11sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/re_passwd_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/re_passwd_label"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="*" />
+
+        <ImageView
+            android:id="@+id/re_passwd_label"
+            android:layout_width="43dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/passwd_tips"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/re_passwd_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/re_passwd_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/re_passwd_label"
+            android:hint="再次输入密码"
+            android:password="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/alipay_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/alipay_label"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="*" />
+
+        <ImageView
+            android:id="@+id/alipay_label"
+            android:layout_width="43dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/re_passwd_label"
+            android:layout_marginTop="10dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/alipay_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/alipay_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/alipay_label"
+            android:hint="支付宝账号"
+            android:password="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/phone_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/phone_label"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="*"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/phone_label"
+            android:layout_width="43dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/alipay_label"
+            android:layout_marginTop="10dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/phone_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/phone_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/phone_label"
+            android:hint="电话号码"
+            android:password="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/job_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/job_label"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="*"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/job_label"
+            android:layout_width="43dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nickname_label"
+            android:layout_below="@+id/phone_label"
+            android:layout_marginTop="10dp"
+            android:background="#cecece"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/job_value"
+            style="@style/account_mgr_value_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/job_label"
+            android:layout_alignLeft="@+id/nickname_value"
+            android:layout_alignTop="@+id/job_label"
+            android:hint="职业"
+            android:password="true" />
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/job_label"
+            android:layout_marginTop="24dp"
+            android:background="#d6d6d6"
+            android:gravity="center"
+            android:text="保存"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+</ScrollView>

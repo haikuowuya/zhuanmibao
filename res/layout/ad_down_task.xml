@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/explantion_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#fbf2eb"
+        android:padding="12dp" >
+
+        <TextView
+            android:id="@+id/exp_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/down_task_tips_bg"
+            android:gravity="center"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="6dp"
+            android:text="任务小提示"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/row_1_numb"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_below="@+id/exp_tips"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/num_bg"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="1"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/row_1_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/row_1_numb"
+            android:layout_alignTop="@+id/row_1_numb"
+            android:layout_below="@+id/exp_tips"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/row_1_numb"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="应用必须使用3分钟以上，才能获取米币"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/row_2_numb"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_below="@+id/row_1_numb"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/num_bg"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="2"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/row_2_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/row_2_numb"
+            android:layout_alignTop="@+id/row_2_numb"
+            android:layout_below="@+id/exp_tips"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/row_2_numb"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="每天只能做两个渠道的任务"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/row_3_numb"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_below="@+id/row_2_numb"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/num_bg"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="3"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/row_3_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/row_3_numb"
+            android:layout_alignTop="@+id/row_3_numb"
+            android:layout_below="@+id/exp_tips"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/row_3_numb"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="如果完成任务米币不会增加，请24小时之后再试"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/row_4_numb"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_below="@+id/row_3_numb"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/num_bg"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="4"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/row_4_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/row_4_numb"
+            android:layout_alignTop="@+id/row_4_numb"
+            android:layout_below="@+id/exp_tips"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/row_4_numb"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="安装后不删除，会有相关活动赚取额外米币"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/explantion_area"
+        android:background="#d7d7d7" />
+
+    <ListView
+        android:id="@+id/channel_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line"
+        android:listSelector="#00000000"
+        android:divider="#d7d7d7"
+        android:dividerHeight="1px" >
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/user_info_area"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:id="@+id/head_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/head_icon" />
+
+        <RelativeLayout
+            android:id="@+id/account_desc_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/head_img" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center_vertical"
+                android:text="夏小草"
+                android:textColor="#ff000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/level_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/level"
+                android:layout_alignLeft="@+id/name"
+                android:layout_alignTop="@+id/level"
+                android:scaleType="center"
+                android:src="@drawable/level_icon" />
+
+            <TextView
+                android:id="@+id/level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@+id/level_icon"
+                android:text="等级:Lv10"
+                android:textColor="#989898"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/done_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/level_icon"
+                android:layout_below="@+id/level_icon"
+                android:layout_marginTop="6dp"
+                android:text="已做任务:40"
+                android:textColor="#989898"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/money_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/money"
+                android:layout_alignTop="@+id/money"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/level"
+                android:scaleType="center"
+                android:src="@drawable/mi_icon" />
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@+id/money_icon"
+                android:text="米币:1000W"
+                android:textColor="#989898"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/exchanged_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/money_icon"
+                android:layout_below="@+id/money_icon"
+                android:layout_marginTop="6dp"
+                android:text="已兑换米币:40"
+                android:textColor="#989898"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/arrow" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/user_info_area"
+        android:background="#d7d7d7" />
+
+    <LinearLayout
+        android:id="@+id/game_area"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_below="@+id/line1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/shake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/shake_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/shake_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shake_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:singleLine="true"
+                android:text="天天摇一摇"
+                android:textColor="#ff000000" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#d7d7d7" />
+
+        <RelativeLayout
+            android:id="@+id/bigwheel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/bigwheel_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/bigwheel_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bigwheel_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:singleLine="true"
+                android:text="幸运大转盘"
+                android:textColor="#ff000000" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#d7d7d7" />
+
+        <RelativeLayout
+            android:id="@+id/slotmach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/slotmach_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/slotmach_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/slotmach_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:singleLine="true"
+                android:text="快乐老虎机"
+                android:textColor="#ff000000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/game_area"
+        android:background="#d7d7d7" />
+
+    <ListView
+        android:id="@+id/active_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/line2"
+        android:divider="#d7d7d7"
+        android:dividerHeight="1px" >
+    </ListView>
+
+</RelativeLayout>
